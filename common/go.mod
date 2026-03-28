@@ -1,4 +1,4 @@
-module github.com/NUS-ISS-Agile-Team/ceramicraft-mservice-template/common
+module github.com/sw5005-sus/ceramicraft-mservice-template/common
 
 go 1.24.0
 
@@ -8,8 +8,10 @@ require (
 )
 
 require (
-	golang.org/x/net v0.41.0 // indirect
-	golang.org/x/sys v0.33.0 // indirect
-	golang.org/x/text v0.26.0 // indirect
+	github.com/quic-go/quic-go v0.57.0 // indirect
+	golang.org/x/crypto v0.41.0 // indirect
+	golang.org/x/net v0.43.0 // indirect
+	golang.org/x/sys v0.35.0 // indirect
+	golang.org/x/text v0.28.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250707201910-8d1bb00bc6a7 // indirect
 )
