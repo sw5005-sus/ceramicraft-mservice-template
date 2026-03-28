@@ -10,7 +10,7 @@ services:
     networks:
       ci-net:
         aliases:
-          - mysql-container   # 别名，Go 通过这个名字连接 MySQL
+          - mysql-container  
 
   ceramicraft-mservice-template:
     build:

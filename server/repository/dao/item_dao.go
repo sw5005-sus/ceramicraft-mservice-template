@@ -5,11 +5,11 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/NUS-ISS-Agile-Team/ceramicraft-mservice-template/server/log"
-	"github.com/NUS-ISS-Agile-Team/ceramicraft-mservice-template/server/repository"
+	"github.com/sw5005-sus/ceramicraft-mservice-template/server/log"
+	"github.com/sw5005-sus/ceramicraft-mservice-template/server/repository"
 	"gorm.io/gorm"
 
-	"github.com/NUS-ISS-Agile-Team/ceramicraft-mservice-template/server/repository/model"
+	"github.com/sw5005-sus/ceramicraft-mservice-template/server/repository/model"
 )
 
 type ItemDao interface {

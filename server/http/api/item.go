@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/NUS-ISS-Agile-Team/ceramicraft-mservice-template/server/http/data"
-	"github.com/NUS-ISS-Agile-Team/ceramicraft-mservice-template/server/service"
+	"github.com/sw5005-sus/ceramicraft-mservice-template/server/http/data"
+	"github.com/sw5005-sus/ceramicraft-mservice-template/server/service"
 	"github.com/gin-gonic/gin"
 )
 

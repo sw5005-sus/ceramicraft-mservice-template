@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/NUS-ISS-Agile-Team/ceramicraft-mservice-template/server/config"
-	"github.com/NUS-ISS-Agile-Team/ceramicraft-mservice-template/server/http/router"
-	"github.com/NUS-ISS-Agile-Team/ceramicraft-mservice-template/server/log"
+	"github.com/sw5005-sus/ceramicraft-mservice-template/server/config"
+	"github.com/sw5005-sus/ceramicraft-mservice-template/server/http/router"
+	"github.com/sw5005-sus/ceramicraft-mservice-template/server/log"
 )
 
 func Init(exitSig chan os.Signal) {
