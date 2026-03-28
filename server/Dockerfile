@@ -1,4 +1,4 @@
-# Use the official Go image with version 1.24
+# Use the official Go image with version 1.25.8
 FROM golang:1.25.8-alpine AS builder 
 
 RUN apk update && \
