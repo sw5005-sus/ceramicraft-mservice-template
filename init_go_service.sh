@@ -45,13 +45,13 @@ echo "##############Complete common modification################"
 
 cd ../client
 sed -i '' "/ceramicraft-${mic_short_name}-mservice\/common/d" go.mod
-go get "github.com/NUS-ISS-Agile-Team/ceramicraft-${mic_short_name}-mservice/common@$commit_hash"
+go get "github.com/sw5005-sus/ceramicraft-${mic_short_name}-mservice/common@$commit_hash"
 go mod tidy
 echo "#############Complete client modification################"
 
 cd ../server
 sed -i '' "/ceramicraft-${mic_short_name}-mservice\/common/d" go.mod
-go get "github.com/NUS-ISS-Agile-Team/ceramicraft-${mic_short_name}-mservice/common@$commit_hash"
+go get "github.com/sw5005-sus/ceramicraft-${mic_short_name}-mservice/common@$commit_hash"
 go mod tidy
 swag init
 echo "#############Complete server modification################"

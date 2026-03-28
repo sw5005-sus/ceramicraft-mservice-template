@@ -3,8 +3,8 @@ package grpc
 import (
 	"context"
 
-	"github.com/NUS-ISS-Agile-Team/ceramicraft-mservice-template/common/demopb"
-	"github.com/NUS-ISS-Agile-Team/ceramicraft-mservice-template/server/log"
+	"github.com/sw5005-sus/ceramicraft-mservice-template/common/demopb"
+	"github.com/sw5005-sus/ceramicraft-mservice-template/server/log"
 )
 
 type DemoService struct {

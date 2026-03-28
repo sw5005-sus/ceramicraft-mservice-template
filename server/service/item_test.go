@@ -6,11 +6,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/NUS-ISS-Agile-Team/ceramicraft-mservice-template/server/config"
-	"github.com/NUS-ISS-Agile-Team/ceramicraft-mservice-template/server/http/data"
-	"github.com/NUS-ISS-Agile-Team/ceramicraft-mservice-template/server/log"
-	"github.com/NUS-ISS-Agile-Team/ceramicraft-mservice-template/server/repository/dao/mocks"
-	"github.com/NUS-ISS-Agile-Team/ceramicraft-mservice-template/server/repository/model"
+	"github.com/sw5005-sus/ceramicraft-mservice-template/server/config"
+	"github.com/sw5005-sus/ceramicraft-mservice-template/server/http/data"
+	"github.com/sw5005-sus/ceramicraft-mservice-template/server/log"
+	"github.com/sw5005-sus/ceramicraft-mservice-template/server/repository/dao/mocks"
+	"github.com/sw5005-sus/ceramicraft-mservice-template/server/repository/model"
 	"github.com/stretchr/testify/mock"
 )
 
